@@ -1,0 +1,53 @@
+.parent{
+    width:100%;
+    height:500px;
+    background-color:#f1eac3;
+  }
+
+  @media (min-width: 600px) {
+.parent {
+      display: flex;
+    }
+.child1 {
+      flex-grow: 1;
+    }
+.child2 {
+      flex-grow: 1;
+    }
+  }
+
+.red{
+    width:100%;
+    height:100%;
+}
+
+.blue{
+    height:500px;
+}
+
+.back{
+    background-color:chocolate;
+    width:100%;
+}
+
+.contents{
+    background-color:white;
+    width:1100px;
+    margin:10px 25px;
+    padding:50px 0 30px 60px;
+
+}
+
+.image img{
+  width:100%;
+  height:400px;
+}
+
+.image{
+  display:flex;
+}
+
+.image p{
+  text-align:center;
+  font-size:15px;
+}
