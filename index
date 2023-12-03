@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="parent">
+            <div class="child1"><img src="IMG_8702.jpg" class="red" alt=""></div>
+            <div class="child2 blue">
+                    <div class="top-wrapper">
+                    <br>
+                    <h2>岡山 幸太</h2>
+                    <h3>教諭</h3>
+                    <p>1998年7月15日生まれ。西条農業高等学校の教員。愛媛県松山市出身</p>
+                    <p>伊予農業高等学校卒業後、愛媛大学へ進学。卒業後は社会人として２年働くが退職。</p>
+                    <p>農業教員として再就職する。</p>
+                    <p>小学4年生から13年間バスケットボール部に所属し、風邪をひかない強靭な肉体を手に入れた。</p>
+                    <p>趣味は旅行、時間とお金があれば、いつでも行きたい。</p>
+                    <p>休みの日は映画を見ることが多く、レンタルや映画館に足を運ぶこともしばしば。</p>
+                    <p>ポップコーンはキャラメル以外考えられない。</p>
+                    </div>
+            </div>
+        </div>
+        <div class="back">
+            <br>
+            <div class="contents">
+                <div class="contents1">
+                <h1>大学までの経歴を教えてください。</h1>
+                <p>高校の進路を決める時に、勉強したくないことが理由で、伊予農業高等学校園芸流通科への進学を決めました。</p>
+                <p>伊予農では、バスケ部で顧問にぼこぼこにされたり、野菜班で野田先生にボコボコにされたり、いろんな思い出があります。</p>
+                <p>担任の先生や副担任の先生に愛媛大学を勧められ、勉強したくないがために伊予農に来たことを忘れ、調子に乗って勉強を始めました。</p>
+                <p>岡先生とは、当時同じクラスだったので毎日遅くまで勉強していましたね。その甲斐あってか、合格することができました。</p>
+                </div>
+                <br>
+                <h1>大学での生活を教えてください。</h1>
+                <p>大学では講義や部活動、アルバイトなど、いろいろなことに挑戦していたと思います。</p>
+                <p>部活動は、16時から22時まで週5日活動してました。しんどかったですが、たくさんのものを得ることができました。</p>
+                <p>農学部では、食料生産経営学コースに所属し、多くのことを学び、たくさんの友人ができました。</p>
+                <p>私は、愛媛大学は難関大学という認識でしたが、周りの学生は第1志望に落ちたため、第2志望の愛媛大学に来たという頭の良い人ばかりでした。</p>
+                <p>私からしたらレベルの高い友達と過ごせたことは、とても良い経験になったと思います。</p>
+                <br>
+                <h1>趣味は旅行なんですね</h1>
+                <p>旅行は、昔から好きで、大学になってお金を自分で稼げるようになってからは一人旅も良くしていました。</p>
+                <p>海外にワーキングホリデーでカナダに行っている友達に一人で会いに行ったのも良い経験になったと思います。</p>
+                <p>教員になってからは行けていないので、ドイツのクリスマスマーケットやフロリダのディズニーにも行ってみたいですね。</p>
+                
+                <div class="image">
+                    <div class="pic">
+                        <img src="https://lh3.googleusercontent.com/pw/ADCreHegZ94WQdN7-IEbsWqmNdnTmYDmsRMXdkkJOjbnSXlLs1LzIP9ArVXRGIDAZ3C_k42ODWGXCE98YhrDj9ee7khz9W1pRgdu00cDQsiHd0r8q6GQxZ5cUoCHoJaP2qVDOAEjjXTVi1Mj1bOFvmyMtAjL=w1212-h909-s-no?authuser=0" alt="">
+                        <p>愛媛大学バスケットボール部</p>
+                    </div>
+                    <div class="pic1">
+                        <img src="https://lh3.googleusercontent.com/pw/ADCreHesN2dEWsFjcxwGtxVBWbhBywlQP3FvlTB34KPAdwwWrEBxFPmOhvXSBZLqwhfYjl7AVqLgtBBvTBCR5iCllfQEbE8I5KT-RhAYJ9voSC9F2kGdv2womzJdxOKX9CRVjyLfr1XctkcUTYJjbHF8CqvY=w1212-h909-s-no?authuser=0" alt="">
+                        <p>食料生産経営学コース</p>
+                    </div>
+                   
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+</body>
+</html>
