@@ -54,3 +54,96 @@
   text-align:center;
   font-size:15px;
 }
+
+.parent {
+  width: 100%;
+  height: 500px;
+  background-color: #f1eac3;
+}
+
+/* 600px以上の場合は子要素を横並びに */
+@media (min-width: 600px) {
+  .parent {
+    display: flex;
+  }
+  .child1 {
+    flex-grow: 1;
+  }
+  .child2 {
+    flex-grow: 1;
+    height: 500px;
+  }
+}
+
+/* 共通のスタイル */
+.red {
+  width: 100%;
+  height: 100%;
+}
+
+.blue {
+  /* 600px以上は高さ固定。モバイルでは自動調整 */
+  height: 500px;
+}
+
+.back {
+  background-color: chocolate;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  background-color: white;
+  width: 1100px;
+  margin: 10px 25px;
+  padding: 50px 0 30px 60px;
+}
+
+.image img {
+  width: 100%;
+  height: 400px;
+}
+
+.image {
+  display: flex;
+}
+
+.image p {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* レスポンシブ用（600px以下の場合） */
+@media (max-width: 600px) {
+  /* .parent の子要素は縦並び */
+  .parent {
+    display: block;
+    height: auto;  /* 高さ固定を解除 */
+  }
+  .child1,
+  .child2 {
+    width: 100%;
+    height: auto;  /* 固定高さを解除してコンテンツに合わせる */
+  }
+  .blue {
+    /* 必要に応じてpaddingやマージン調整 */
+    height: auto;
+    padding: 20px 10px;
+  }
+  /* コンテンツエリアの幅やパディングを調整 */
+  .contents {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 10px;
+  }
+  /* .image内は縦並びに変更 */
+  .image {
+    flex-direction: column;
+  }
+  .image img {
+    height: auto; /* 画像の高さは自動調整 */
+    margin-bottom: 10px;
+  }
+}
+
