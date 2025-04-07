@@ -29,6 +29,8 @@
 .back{
     background-color:chocolate;
     width:100%;
+    display:flex;
+    justify-content: center;
 }
 
 .contents{
